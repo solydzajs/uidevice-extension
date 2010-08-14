@@ -87,6 +87,8 @@ enum {
 	UIDeviceSupportsPiezoClicker = 1 << 26,
 	UIDeviceSupportsVolumeButtons = 1 << 27,
 	UIDeviceSupportsEnhancedMultitouch = 1 << 28, // http://www.boygeniusreport.com/2010/01/13/apples-tablet-is-an-iphone-on-steroids/
+	UIDeviceSupportsGyroscope = 1 << 29,
+	UIDeviceSupportsRetinaDisplay = 1 << 30,
 };
 
 /*

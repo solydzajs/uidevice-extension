@@ -277,7 +277,40 @@
 			 UIDeviceSupportsNike |
 			 // UIDeviceSupportsPiezoClicker |
 			 UIDeviceSupportsVolumeButtons
-			 );			
+			 );
+		case UIDevice4GiPhone:
+			return
+			(UIDeviceSupportsTelephony  |
+			 UIDeviceSupportsSMS  |
+			 UIDeviceSupportsStillCamera  |
+			 UIDeviceSupportsAutofocusCamera |
+			 UIDeviceSupportsVideoCamera  |
+			 UIDeviceSupportsWifi  |
+			 UIDeviceSupportsAccelerometer  |
+			 UIDeviceSupportsLocationServices  |
+			 UIDeviceSupportsGPS  |
+			 UIDeviceSupportsMagnetometer  |
+			 UIDeviceSupportsBuiltInMicrophone  |
+			 UIDeviceSupportsExternalMicrophone  |
+			 UIDeviceSupportsOPENGLES1_1  |
+			 UIDeviceSupportsOPENGLES2  |
+			 UIDeviceSupportsBuiltInSpeaker  |
+			 UIDeviceSupportsVibration  |
+			 UIDeviceSupportsBuiltInProximitySensor  |
+			 UIDeviceSupportsAccessibility  |
+			 UIDeviceSupportsVoiceOver |
+			 UIDeviceSupportsVoiceControl |
+			 UIDeviceSupportsPeerToPeer |
+			 UIDeviceSupportsARMV7 |
+			 UIDeviceSupportsBrightnessSensor |
+			 UIDeviceSupportsEncodeAAC |
+			 UIDeviceSupportsBluetooth |
+			 UIDeviceSupportsNike |
+			 // UIDeviceSupportsPiezoClicker |
+			 UIDeviceSupportsVolumeButtons |
+			 UIDeviceSupportsGyroscope |
+			 UIDeviceSupportsRetinaDisplay
+			 );
 		case UIDeviceUnknowniPhone: return 0;
 			
 		case UIDevice1GiPod: 
